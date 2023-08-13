@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Blog</title>
+ <style>
+  /* CSS code for the layout */
+
+  /* Set the height of the body and make it a flex container */
+  body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+  }
+
+  /* Navigation Bar */
+  nav {
+   background-color: #000000;
+   padding: 30px;
+   text-align: right;
+   font-size: 22px;
+  }
+
+  nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+  }
+
+  nav ul li {
+   display: inline;
+   margin-right: 10px;
+  }
+
+  nav ul li a {
+   color: #fff;
+   text-decoration: none;
+  }
+
+   /* Add a logo to the navigation bar */
+  .logo {
+    vertical-align: bottom;
+    float: left; /* Add this property to make the logo go to the left */
+    margin-right: 20px; /* Adjust the margin if needed */
+  }
+
+  /* Decrease the size of the logo */
+  .logo img {
+    width: 80px; /* Adjust the width as per your requirement */
+    height: auto; /* This maintains the aspect ratio */
+  }
+
+  /* Body */
+  .content {
+   flex: 1; /* Expand to fill remaining space */
+   padding: 20px;
+  }
+
+  /* Footer */
+  footer {
+   background-color: #000000;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+  }
+
+  /* Blog Posts */
+  .blog-post {
+    margin-bottom: 40px;
+  }
+
+  .blog-post h3 {
+    margin-bottom: 10px;
+  }
+
+  .blog-post p {
+    margin-bottom: 20px;
+  }
+ </style>
+
+<!--Favicon-->
+<link rel="icon" href="https://w7.pngwing.com/pngs/204/418/png-transparent-social-media-blogger-computer-icons-logo-blog-text-rectangle-orange.png" />
+<body>
+
+ <!-- Navigation Bar -->
+ <nav>
+  <a href="#" class="logo"><img src="https://revenuearchitects.com/wp-content/uploads/2017/02/Blog_pic-1030x584.png" alt="Logo"></a>
+  <ul>
+   <li><a href="#">Home</a></li>
+   <li><a href="#">Blogs</a></li>
+   <li><a href="#">Contact US</a></li>
+  </ul>
+ </nav>
+
+ <!-- Body -->
+ <div class="content">
+  <h2 style="text-align: center;font-size: 50px;font-family: Arial, Helvetica, sans-serif;color: blue;text-decoration: underline;">Welcome to My Blog</h2>
+
+  <h2 style="font-size: 30px;font-family: Arial, Helvetica, sans-serif;color: rgb(0, 0, 0);text-decoration: underline;">Trending Blogs</h2>
+  <!-- Blog Post 1 -->
+  <div class="blog-post">
+    <h3>Blog Post Title 1</h3>
+    <p class="date">Posted on July 30, 2023</p>
+    <img width="50%" height="50%" src="https://cdn4.wpbeginner.com/wp-content/uploads/2018/07/whatisblog.png">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dictum quam. Sed lacinia eu est nec congue. Nulla facilisi. Nam eget libero nisl. Vivamus vel ex urna. Nullam sit amet tellus nec odio sagittis auctor non eget lectus.</p>
+    <p>Phasellus euismod, nisi vel laoreet posuere, lorem orci faucibus velit, id facilisis ex ligula eu eros. Nullam vulputate, libero nec hendrerit sollicitudin, nisi ligula venenatis nisi, quis luctus lectus tortor eu purus.</p>
+  </div>
+
+  <!-- Blog Post 2 -->
+  <div class="blog-post">
+    <h3>Blog Post Title 2</h3>
+    <p class="date">Posted on July 31, 2023</p>
+    <img width="50%" height="50%" src="https://www.digitalvidya.com/blog/wp-content/uploads/2019/03/personal-blog-1024x538.jpg" alt="Image 4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dictum quam. Sed lacinia eu est nec congue. Nulla facilisi. Nam eget libero nisl. Vivamus vel ex urna. Nullam sit amet tellus nec odio sagittis auctor non eget lectus.</p>
+    <p>Phasellus euismod, nisi vel laoreet posuere, lorem orci faucibus velit, id facilisis ex ligula eu eros. Nullam vulputate, libero nec hendrerit sollicitudin, nisi ligula venenatis nisi, quis luctus lectus tortor eu purus.</p>
+  </div>
+
+</body>
+</html>

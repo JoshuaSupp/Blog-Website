@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Website</title>
+ <style>
+ /* CSS code for the layout */
+
+ /* Set the height of the body and make it a flex container */
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+ }
+
+ /* Navigation Bar */
+ nav {
+  background-color: #000000;
+  padding: 30px;
+  text-align: right;
+  font-size: 22px;
+ }
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+
+ nav ul li {
+  display: inline;
+  margin-right: 10px;
+ }
+
+ nav ul li a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+ /* Body */
+ .content {
+  flex: 1; /* Expand to fill remaining space */
+  padding: 20px;
+ }
+
+ /* Footer */
+ footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+ }
+ </style>
+</head>
+<body>
+
+ <!-- Navigation Bar -->
+ <nav>
+ <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Contact</a></li>
+ </ul>
+ </nav>
+
+ <!-- Body -->
+ <div class="content">
+ <h2>Welcome to My Website</h2>
+ <p>This is the content of my website.</p>
+ </div>
+
+ <!-- Footer -->
+ <footer>
+ <p>&copy; 2023 My Website. All rights reserved.</p>
+ </footer>
+</body>
+</html>
+
+
